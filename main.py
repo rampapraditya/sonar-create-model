@@ -31,6 +31,8 @@ def predict_audio(file_path):
     return label_classes[predicted_label]
 
 # Contoh penggunaan
-file_path = "dataset/cargo/cargo6.wav"  # Ubah sesuai file yang ingin diuji
+# file_path = "dataset/cargo/cargo6.wav"  # Ubah sesuai file yang ingin diuji
+file_path = "dataset/nelayan/nelayan1.wav"  # Ubah sesuai file yang ingin diuji
+
 hasil = predict_audio(file_path)
 print(f"Hasil prediksi: {hasil}")
